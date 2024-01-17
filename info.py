@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onepagelink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'a450a60a11e155aa443301ba2de6055a3cdbd7e2')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'onepagelink.in')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'a450a60a11e155aa443301ba2de6055a3cdbd7e2')
