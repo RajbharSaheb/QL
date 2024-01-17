@@ -363,8 +363,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
         ])
-#]
-     
     else:
         btn = []
     btn.insert(0, 
